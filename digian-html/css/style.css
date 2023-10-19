@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #0c0c0c;
   overflow-x: hidden;
 }
 .whatsapp {
@@ -406,7 +406,7 @@ a:focus {
   position: absolute;
   right: -137.5px;
   bottom: -137.5px;
-  background-color: #faf8fd;
+  background-color: #3d3d3d;
   z-index: -1;
   border-radius: 100%;
   -webkit-transition: all 0.3s;
