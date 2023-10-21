@@ -108,7 +108,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: linear-gradient(#0d205c,#cf9d00);
+  background: linear-gradient(#0d205c,#1100ff);
   border-radius: 0 0 350px 0;
 }
 
@@ -407,7 +407,7 @@ a:focus {
   position: absolute;
   right: -137.5px;
   bottom: -137.5px;
-  background-color: #cf9d00;
+  background-color: #1100ff;
   z-index: -1;
   border-radius: 100%;
   -webkit-transition: all 0.3s;
@@ -456,7 +456,7 @@ a:focus {
 .service_section .box:hover::before {
   -webkit-transform: scale(5);
           transform: scale(5);
-  background-color: #cf9d00;
+  background-color: #1100ff;
 }
 
 .service_section .btn-box {
@@ -731,7 +731,7 @@ a:focus {
 }
 
 .footer_container {
-  background-color: #cf9d00;
+  background-color: #1100ff;
   color: #ffffff;
   border-radius: 350px 0 0 0;
   padding-top: 145px;
