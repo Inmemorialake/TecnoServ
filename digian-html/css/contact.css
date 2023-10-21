@@ -108,7 +108,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: linear-gradient(#0d205c, #a200ff);
+  background: linear-gradient(#0d205c, #008fdf);
   border-radius: 0 0 350px 0;
 }
 
@@ -736,7 +736,7 @@ a:focus {
 }
 
 .footer_container {
-  background-color: #7335b7;
+  background-color: #008fdf;
   color: #ffffff;
   border-radius: 350px 0 0 0;
   padding-top: 145px;
