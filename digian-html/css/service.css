@@ -238,7 +238,7 @@ a:focus {
           transform: none;
 }
 
-.quote_btn-container {
+.login_btn-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,20 +247,20 @@ a:focus {
           align-items: center;
 }
 
-.quote_btn-container a {
+.login_btn-container a {
   color: #000000;
   text-transform: uppercase;
 }
 
-.quote_btn-container a span {
+.login_btn-container a span {
   margin-left: 5px;
 }
 
-.quote_btn-container a:hover {
+.login_btn-container a:hover {
   color: #f8842b;
 }
 
-.quote_btn-container .quote_btn {
+.login_btn-container .login_btn {
   display: inline-block;
   padding: 5px 25px;
   background-color: #f8842b;
@@ -271,7 +271,7 @@ a:focus {
   border: 1px solid #f8842b;
 }
 
-.quote_btn-container .quote_btn:hover {
+.login_btn-container .login_btn:hover {
   color: #ffffff;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
