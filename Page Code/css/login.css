@@ -43,7 +43,7 @@ body {
   color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(Login.jpeg);
+  background-image: url(../images/Login.jpeg);
   overflow: hidden;
 }
 .box-form .left .overlay {
@@ -81,7 +81,7 @@ body {
   }
 }
 .box-form .right h5 {
-  font-size: 6vmax;
+  font-size: 4vmax;
   line-height: 0;
 }
 .box-form .right p {
