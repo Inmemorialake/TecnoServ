@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
+  color: #ffffff;
   background-color: #0c0c0c;
   overflow-x: hidden;
 }
@@ -534,7 +534,7 @@ a:focus {
 
 .case_section .box {
   margin-top: 45px;
-  background-color: #ffffff;
+  background-color: #7335b7;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   text-align: center;
