@@ -83,13 +83,13 @@ a:focus {
 }
 
 /*contact secition box*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 * {
   margin: none;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .envoltura .boton {
@@ -101,14 +101,15 @@ a:focus {
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: none; 
-  margin: 0 5px;
+  float: none;
+  margin: 5px;
   overflow: hidden;
   background: #fff;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 15px 15px #0000001a;
   transition: all 0.3s ease-out;
+  padding: 0%;
 }
 
 .envoltura .boton:hover {
@@ -124,11 +125,37 @@ a:focus {
   box-sizing: border-box;
   line-height: 60px;
   transition: all 0.3s ease-out;
-  
+}
+
+.envoltura .boton:nth-child(1) .icono {
+  background: #25d366;
+}
+
+.envoltura .boton:nth-child(2) .icono {
+  background: #0866ff;
+}
+
+.envoltura .boton:nth-child(3) .icono {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.envoltura .boton:nth-child(4) .icono {
+  background: #ff0000;
+}
+
+.envoltura .boton:nth-child(5) .icono {
+  background: #000000;
 }
 
 .envoltura .boton:nth-child(1):hover .icono {
-  background: #25D366;
+  background: #25d366;
 }
 
 .envoltura .boton:nth-child(2):hover .icono {
@@ -136,12 +163,14 @@ a:focus {
 }
 
 .envoltura .boton:nth-child(3):hover .icono {
-  background: radial-gradient(circle at 33% 100%,
-      #fed373 4%,
-      #f15245 30%,
-      #d92e7f 62%,
-      #9b36b7 85%,
-      #515ecf);
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
 }
 
 .envoltura .boton:nth-child(4):hover .icono {
@@ -171,7 +200,7 @@ a:focus {
 }
 
 .envoltura .boton:nth-child(1) span {
-  color: #25D366;
+  color: #25d366;
 }
 
 .envoltura .boton:nth-child(2) span {
@@ -179,7 +208,7 @@ a:focus {
 }
 
 .envoltura .boton:nth-child(3) span {
-  color: #E1306C;
+  color: #e1306c;
 }
 
 .envoltura .boton:nth-child(4) span {
