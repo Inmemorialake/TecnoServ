@@ -13,7 +13,6 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
 main {
   width: 100%;
   padding: 20px;
@@ -36,6 +35,7 @@ main {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: #00000080;
+  border-radius: 15px;
 }
 
 .caja__trasera div {
@@ -73,7 +73,7 @@ main {
 
 .caja__trasera button:hover {
   background: #fff;
-  color: #46a2fd;
+  color: #000000;
 }
 
 /*Formularios*/
