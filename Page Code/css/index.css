@@ -82,6 +82,7 @@ a:focus {
   box-shadow: none;
 }
 
+/*social network*/
 /*contact secition network box*/
 
 body {
@@ -246,7 +247,7 @@ body {
 .open {
   animation-iteration-count: 1;
 }
-
+/*end social network*/
 /*Botton service section*/
 
 .frame {
