@@ -13,6 +13,34 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
+header {
+  position: relative;
+  min-height: 10vh;
+  background: linear-gradient(#000000, #00000080);
+  border-radius: 0 0 350px 0;
+  text-align: center;
+}
+
+a {
+  margin: 3px;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: all 300ms;
+}
+
+a:hover {
+  background: #fff;
+  color: #000000;
+}
+
 main {
   width: 100%;
   padding: 20px;
@@ -103,7 +131,7 @@ main {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
-  color: #46a2fd;
+  color: #000000;
 }
 
 .contenedor__login-register form input {
@@ -121,10 +149,10 @@ main {
   margin-top: 40px;
   border: none;
   font-size: 14px;
-  background: #46a2fd;
+  background: #000000;
   font-weight: 600;
   cursor: pointer;
-  color: white;
+  color: #efb810;
   outline: none;
 }
 

@@ -110,7 +110,7 @@ body {
   color: #0064f3;
   cursor: pointer;
   background-color: #fff;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -118,14 +118,14 @@ body {
   -o-border-radius: 50%;
 }
 
-#main-button~button {
-  visibility: hidden;
+#main-button ~ button {
+  visibility: inherit;
   font-weight: 600;
   height: 50px;
   padding: 0 20px;
   color: #fff;
   background: linear-gradient(90deg, #7335b7, #0064f3);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   border: 0;
   position: absolute;
   z-index: -1;
@@ -134,11 +134,11 @@ body {
   opacity: 0;
   white-space: nowrap;
   cursor: pointer;
-  transition: .2s all linear;
-  -webkit-transition: .2s all linear;
-  -moz-transition: .2s all linear;
-  -ms-transition: .2s all linear;
-  -o-transition: .2s all linear;
+  transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -146,18 +146,18 @@ body {
   -o-border-radius: 5px;
 }
 
-#main-button.open~button {
+#main-button.open ~ button {
   visibility: visible;
   right: 70px;
   opacity: 1;
-  transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -webkit-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -webkit-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -moz-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -ms-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -o-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
 }
 
-#main-button~a {
+#main-button ~ a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,57 +173,64 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #fff;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  transition: .2s all linear;
-  -webkit-transition: .2s all linear;
-  -moz-transition: .2s all linear;
-  -ms-transition: .2s all linear;
-  -o-transition: .2s all linear;
+  transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
 }
 
-#main-button~.whatsapp-color {
-  background: linear-gradient(0deg, #00B100, #09db09);
+#main-button ~ .whatsapp-color {
+  background: linear-gradient(0deg, #00b100, #09db09);
 }
 
-#main-button~.facebook-color {
+#main-button ~ .facebook-color {
   background: linear-gradient(0deg, #0866ff, #1877f2);
 }
 
-#main-button~.instagram-color {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+#main-button ~ .instagram-color {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 
-#main-button~.youtube-color {
-  background: linear-gradient(0deg, #00B100, #09db09);
+#main-button ~ .youtube-color {
+  background: linear-gradient(0deg, #00b100, #09db09);
 }
 
-#main-button~.tiktok-color {
-  background: linear-gradient(0deg, #0078FF, #00C6FF);
+#main-button ~ .tiktok-color {
+  background: linear-gradient(0deg, #0078ff, #00c6ff);
 }
 
-#main-button.open~a {
+#main-button.open ~ a {
   opacity: 1;
-  transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -webkit-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -webkit-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -moz-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -ms-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -o-transition: 0.4s all cubic-bezier(0, 0.01, 0, 1.27);
 }
 
-#main-button.open~a:nth-of-type(1) {
+#main-button.open ~ a:nth-of-type(1) {
   bottom: 60px;
 }
 
-#main-button.open~a:nth-of-type(2) {
+#main-button.open ~ a:nth-of-type(2) {
   bottom: 120px;
 }
 
-#main-button.open~a:nth-of-type(3) {
+#main-button.open ~ a:nth-of-type(3) {
   bottom: 180px;
 }
 
@@ -266,7 +273,7 @@ button {
   color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 500;
   background: transparent;
   cursor: pointer;
@@ -274,8 +281,7 @@ button {
   position: relative;
   display: inline-block;
   box-shadow: inset 2px 2px 2px 0px rgba(88, 4, 136, 0.514),
-    7px 7px 20px 0px rgba(202, 4, 202, 0.712),
-    4px 4px 5px 0px #d203da3b;
+    7px 7px 20px 0px rgba(202, 4, 202, 0.712), 4px 4px 5px 0px #d203da3b;
   outline: none;
 }
 

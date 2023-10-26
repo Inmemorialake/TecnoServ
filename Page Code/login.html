@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+
+    <header>
+        <br>
+        <a href="index.html">INICIO</a>
+        <a href="about.html">MAS DE NOSOTROS</a>
+        <a href="service.html">SERVICIOS</a>
+    </header>
     <main>
         <div class="contenedor__todo">
             <div class="caja__trasera">
@@ -22,6 +29,7 @@
                     <h3>¿Aún no tienes una cuenta?</h3>
                     <p>Regístrate para que puedas iniciar sesión</p>
                     <button id="btn__registrarse">Regístrarse</button>
+                    <br>
                 </div>
             </div>
 
@@ -29,7 +37,7 @@
             <div class="contenedor__login-register">
                 <form action="/login" class="formulario__login" method="POST">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electrónico" name="username" required>
+                    <input type="email" placeholder="Correo Electrónico" name="e-mail" required>
                     <input type="password" placeholder="Contraseña" name="password" required>
                     <button type="submit">Entrar</button>
                 </form>
@@ -38,7 +46,7 @@
                 <form action="/register" class="formulario__register" method="POST">
                     <h2>Regístrarse</h2>
                     <input type="text" placeholder="Nombre completo" name="fullName" required>
-                    <input type="text" placeholder="Correo Electrónico" name="email" required>
+                    <input type="email" placeholder="Correo Electrónico" name="e-mail" required>
                     <input type="text" placeholder="Documento de Identidad" name="idDocument" required>
                     <input type="password" placeholder="Contraseña" name="password" required>
                     <button type="submit">Regístrarse</button>
