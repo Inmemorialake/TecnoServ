@@ -54,3 +54,16 @@ main {
   margin: auto;
   position: relative;
 }
+
+.tabla {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00000080;
+  border: solid 1px #000000;
+  border-radius: 15px;
+}
+
