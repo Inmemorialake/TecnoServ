@@ -55,15 +55,51 @@ main {
   position: relative;
 }
 
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+input {
+  height: 10%;
+  width: 20%;
+  height: auto;
+}
+
+.Documento {
+  background-color: #00000080;
+  border: solid 2px #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+}
+
 .tabla {
   width: 100%;
   max-width: 800px;
   margin: auto;
+  padding: 15px;
   position: relative;
   text-align: center;
   color: #ffffff;
   background-color: #00000080;
-  border: solid 1px #000000;
+  border: solid 2px #ffffff;
   border-radius: 15px;
 }
 
+table {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.Encabezado {
+  border: solid 2px #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
