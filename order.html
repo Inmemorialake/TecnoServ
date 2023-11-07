@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecnoServ: Login y Register</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/order.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TecnoServ: Login y Register</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/order.css">
 </head>
+
 <body>
 
-    <header>
-        <br>
-        <a href="index.html">INICIO</a>
-        <a href="about.html">MAS DE NOSOTROS</a>
-        <a href="service.html">SERVICIOS</a>
-    </header>
-    <main>
-        <div class="contenedor__todo">
-            <h2>
-                Ordenar un servicio
-            </h2>
-            <br>
-            <div>
-                <input type="text" placeholder="NOMBRE">
-              </div>
-              <div>
-                <input type="email" placeholder="EMAIL">
-              </div>
-              <div>
-                <input type="text" placeholder="NUMERO DE CELULAR">
-              </div>
-              <div>
-                <select name="" id="">
-                  <option value="" disabled selected>TIPO DE SERVICIO</option>
-                  <option value="">Servicio 1</option>
-                  <option value="">Servicio 2</option>
-                  <option value="">Servicio 3</option>
-                </select>
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="MENSAJE">
-              </div>
-              <div class="d-flex justify-content-center " style="text-align: center;">
-                <button>
-                  ENVIAR
-                </button>
-              </div>    
+  <header>
+    <br>
+    <a href="index.html">INICIO</a>
+    <a href="about.html">MAS DE NOSOTROS</a>
+    <a href="service.html">SERVICIOS</a>
+  </header>
+  <main>
+    <div class="login-box">
+      <h2>
+        Ordenar un servicio
+      </h2>
+      <br>
+      <form>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>NOMBRE</label>
         </div>
-    </main>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>EMAIL</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>TELEFONO/CELULAR</label>
+        </div>
+        <h2>
+          Selecciona el tipo de servicio que necesitas
+        </h2>
+        <form class="form-container setup" id="setup-form">
+          <div class="Usuario-box">
+          <label></label>
+            <select name="tipo-de-servicio" id="tipo-de-servicio">
+              <option value="" disabled selected>TIPO DE SERVICIO</option>
+              <option value="">Revisión de equipos</option>
+              <option value="">Instalación de sistemas operativos</option>
+              <option value="">Instalación de Office</option>
+              <option value="">Instalación de programas</option>
+              <option value="">Limpieza de equipos</option>
+              <option value="">Cambio de componentes</option>
+              <option value="">Combo sofware</option>
+              <option value="">Combo mantenimiento general</option>
+              <option value="">Cableado de red</option>
+              <option value="">Instalación de Cámaras</option>
+              <option value="">Manteniomiento de redes</option>
+              <option value="">Red LAN</option>
+            </select>
+        </div>
+        <br>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>DESCRIPCIÓN DE FALLA O DAÑO</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>VER MI SERVICIO</label>
+        </div>
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </a>
+      </form>
+    </div>
+  </main>
 
-    <script src="js/login.js"></script>
+  <script src="js/login.js"></script>
 </body>
+
 </html>
