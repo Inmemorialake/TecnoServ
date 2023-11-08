@@ -79,6 +79,23 @@ CREATE TABLE `Servicio` (
   `costo` decimal(10,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+
+--
+-- Estructura de tabla para la tabla "ServicioSolicitado"
+--
+
+
+CREATE TABLE `ServicioSolicitado` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `telefono` varchar(15) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `tipo_servicio` varchar(100) NOT NULL,
+  `descripcion` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+
+
 --
 -- Volcado de datos para la tabla `Servicio`
 --
