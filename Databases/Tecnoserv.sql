@@ -86,7 +86,7 @@ CREATE TABLE `Servicio` (
 
 
 CREATE TABLE `ServicioSolicitado` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(50) NOT NULL,
   `telefono` varchar(15) NOT NULL,
   `email` varchar(100) NOT NULL,
