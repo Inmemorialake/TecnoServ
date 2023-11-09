@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TecnoServ: Servicios solicitados</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/solicited_services.css">
+</head>
+
+<body>
+
+  <header>
+    <br>
+    <a href="index.html">INICIO</a>
+    <a href="about.html">MAS DE NOSOTROS</a>
+    <a href="service.html">SERVICIOS</a>
+  </header>
+  <main>
+    <table class="table">
+      <thead>
+          <tr>
+            <th>Nombre solicitante</th>
+            <th>Tipo de solicitud</th>
+            <th>e-mail</th>
+            <th>Numero de telefono</th>
+            <th>Descripción </th>
+            <th>Opciones</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td> # </td>
+              <td> # </td>
+              <td> # </td>
+              <td> # </td>
+              <td> # </td>
+              <td><button type="button" routerLink="/edit/(fempleado.id))" class="btn btn-primary">Editar</button> |
+                <button type="button" class="btn btn-danger” (click)="borrarEmpleado(empleado.id, iControl)"">Borrar</button></td>
+          </tr>
+      </tbody>
+  </table>
+  </main>
+</body>
+
+</html>

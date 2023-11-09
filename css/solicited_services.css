@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  header {
+    position: relative;
+    min-height: 10vh;
+    background: linear-gradient(#000000, #00000080);
+    border-radius: 0 0 350px 0;
+    text-align: center;
+  }
+  
+  a {
+    margin: 3px;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+  }
+  
+  a:hover {
+    background: #fff;
+    color: #000000;
+  }
+  
+  main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .contenedor__todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+  }
+  
+  h2 {
+    color: #ffffff;
+  }
+  
+  p {
+    color: #ffffff;
+  }
+  
+  input {
+    height: 10%;
+    width: 20%;
+    height: auto;
+  }
+  
+  .Documento {
+    background-color: #00000080;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00000080;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .Encabezado {
+    border: solid 2px #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
