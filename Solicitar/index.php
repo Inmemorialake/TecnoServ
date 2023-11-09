@@ -13,7 +13,7 @@ $conexionBD = new mysqli($servidor, $usuario, $contrasenia, $nombreBaseDatos);
 
 //borrar pero se le debe de enviar una clave ( para borrado )
 if (isset($_GET["borrar"])){
-    $sqlEmpleaados = mysqli_query($conexionBD,"DELETE FROM empleados WHERE id=".$_GET["borrar"]);
+    $sqlEmpleaados = mysqli_query($conexionBD,"DELETE FROM serviciosolicitado WHERE id=".$_GET["borrar"]);
     if($sqlEmpleaados){
         echo json_encode(["success"=>1]);
         exit();
